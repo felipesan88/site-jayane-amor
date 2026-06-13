@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Felipe ❤️ Jayane</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+background:linear-gradient(180deg,#1a0000,#3d0000,#120000);
+color:white;
+overflow-x:hidden;
+}
+
+.hearts{
+position:fixed;
+width:100%;
+height:100%;
+pointer-events:none;
+top:0;
+left:0;
+z-index:1;
+}
+
+.heart{
+position:absolute;
+color:#ff4d6d;
+animation:fall linear infinite;
+opacity:.7;
+}
+
+@keyframes fall{
+0%{
+transform:translateY(-100px);
+}
+100%{
+transform:translateY(110vh);
+}
+}
+
+header{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+position:relative;
+z-index:2;
+}
+
+header h1{
+font-size:3rem;
+color:#ff4d6d;
+text-shadow:0 0 20px #ff4d6d;
+}
+
+header p{
+font-size:1.2rem;
+margin-top:15px;
+max-width:600px;
+}
+
+.contador{
+margin-top:30px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+padding:20px;
+border-radius:20px;
+box-shadow:0 0 20px rgba(255,0,0,.3);
+}
+
+.contador h2{
+color:#ffd6d6;
+margin-bottom:10px;
+}
+
+#tempo{
+font-size:1.4rem;
+font-weight:bold;
+color:#ffb3b3;
+}
+
+section{
+padding:40px 20px;
+position:relative;
+z-index:2;
+}
+
+.titulo{
+text-align:center;
+font-size:2rem;
+margin-bottom:30px;
+color:#ff758f;
+}
+
+.card{
+max-width:700px;
+margin:40px auto;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+padding:20px;
+border-radius:25px;
+box-shadow:0 0 25px rgba(255,0,0,.25);
+}
+
+.card img{
+width:100%;
+border-radius:20px;
+margin-bottom:15px;
+box-shadow:0 0 25px rgba(255,255,255,.15);
+}
+
+.card h3{
+color:#ff9db2;
+margin-bottom:10px;
+}
+
+.card p{
+line-height:1.8;
+}
+
+.carta{
+max-width:800px;
+margin:auto;
+background:rgba(255,255,255,.08);
+padding:25px;
+border-radius:25px;
+line-height:2;
+font-size:1.1rem;
+box-shadow:0 0 25px rgba(255,0,0,.3);
+}
+
+.final{
+text-align:center;
+padding:80px 20px;
+}
+
+.final h1{
+font-size:2.5rem;
+color:#ff4d6d;
+text-shadow:0 0 20px #ff4d6d;
+}
+
+.final p{
+margin-top:20px;
+font-size:1.2rem;
+}
+
+audio{
+width:90%;
+max-width:500px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<header>
+
+<h1>Felipe ❤️ Jayane</h1>
+
+<p>
+Uma história que começou no Senac e mudou minha vida para sempre.
+</p>
+
+<div class="contador">
+<h2>⏳ Estamos juntos há:</h2>
+<div id="tempo"></div>
+</div>
+
+<br>
+
+<audio controls autoplay loop>
+<source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+</header>
+
+<section>
+
+<h2 class="titulo">📖 Nossa História</h2>
+
+<div class="card">
+<img src="foto1.jpg">
+<h3>📚 Onde tudo começou</h3>
+<p>
+19 de setembro de 2022.
+Entre salas de aula, sonhos e planos, encontrei a pessoa que mudaria minha vida para sempre.
+</p>
+</div>
+
+<div class="card">
+<img src="foto2.jpg">
+<h3>❤️ Nosso começo</h3>
+<p>
+As conversas foram ficando mais longas, os sorrisos mais frequentes e o coração começou a entender o que estava acontecendo.
+</p>
+</div>
+
+<div class="card">
+<img src="foto3.jpg">
+<h3>💋 Nosso primeiro beijo</h3>
+<p>
+Um instante que durou segundos, mas que ficou guardado para sempre na minha memória.
+</p>
+</div>
+
+<div class="card">
+<img src="foto4.jpg">
+<h3>💍 Nossa promessa</h3>
+<p>
+Mais do que uma aliança, foi uma promessa de caminhar lado a lado em todos os momentos.
+</p>
+</div>
+
+<div class="card">
+<img src="foto5.jpg">
+<h3>🙏 Crescendo juntos</h3>
+<p>
+Compartilhando sonhos, fé, desafios e construindo uma vida baseada em amor e companheirismo.
+</p>
+</div>
+
+<div class="card">
+<img src="foto6.jpg">
+<h3>🌳 Nossas aventuras</h3>
+<p>
+Cada passeio virou uma lembrança e cada lembrança virou um capítulo da nossa história.
+</p>
+</div>
+
+<div class="card">
+<img src="foto7.jpg">
+<h3>🌊 Novos lugares</h3>
+<p>
+Aprendemos que não importa para onde vamos. O melhor lugar sempre será ao lado um do outro.
+</p>
+</div>
+
+<div class="card">
+<img src="foto8.jpg">
+<h3>👰🤵 Nosso casamento</h3>
+<p>
+O dia em que prometemos diante de Deus construir uma vida juntos.
+Um dos dias mais felizes da minha vida.
+</p>
+</div>
+
+<div class="card">
+<img src="foto9.jpg">
+<h3>❤️ Hoje</h3>
+<p>
+Depois de tudo o que vivemos, eu ainda escolheria você.
+Hoje, amanhã e em todos os dias da minha vida.
+</p>
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">💌 Para Jayane</h2>
+
+<div class="carta">
+
+Jayane,
+
+Desde aquele dia no Senac, quando nossos caminhos se cruzaram pela primeira vez, minha vida nunca mais foi a mesma.
+
+Você se tornou minha melhor amiga, minha companheira, minha paz nos dias difíceis e minha felicidade nos dias bons.
+
+Obrigado por cada sorriso, cada abraço, cada conversa e cada momento que construímos juntos.
+
+Se eu pudesse voltar para 19 de setembro de 2022 sabendo exatamente tudo o que viveríamos, eu escolheria você novamente.
+
+E novamente.
+
+E novamente.
+
+Porque você foi, é e sempre será a melhor escolha da minha vida.
+
+Eu te amo infinitamente. ❤️
+
+<br><br>
+
+Com amor,
+
+<br>
+
+Felipe ❤️
+
+</div>
+
+</section>
+
+<section class="final">
+
+<h1>❤️ Felipe & Jayane ❤️</h1>
+
+<p>
+Nossa história não termina aqui...
+<br><br>
+Os melhores capítulos ainda estão por vir.
+</p>
+
+</section>
+
+<script>
+
+const inicio = new Date("2022-09-19T00:00:00");
+
+function atualizar(){
+
+const agora = new Date();
+
+const diff = agora - inicio;
+
+const dias = Math.floor(diff / (1000*60*60*24));
+const horas = Math.floor((diff/(1000*60*60))%24);
+const minutos = Math.floor((diff/(1000*60))%60);
+const segundos = Math.floor((diff/1000)%60);
+
+document.getElementById("tempo").innerHTML =
+`${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos ❤️`;
+
+}
+
+setInterval(atualizar,1000);
+atualizar();
+
+const hearts = document.querySelector('.hearts');
+
+for(let i=0;i<40;i++){
+
+const h = document.createElement('div');
+
+h.classList.add('heart');
+
+h.innerHTML='❤';
+
+h.style.left=Math.random()*100+'%';
+
+h.style.fontSize=(10+Math.random()*25)+'px';
+
+h.style.animationDuration=(5+Math.random()*10)+'s';
+
+h.style.animationDelay=Math.random()*5+'s';
+
+hearts.appendChild(h);
+
+}
+
+</script>
+
+</body>
+</html>
